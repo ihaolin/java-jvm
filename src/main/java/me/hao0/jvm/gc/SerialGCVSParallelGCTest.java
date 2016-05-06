@@ -1,14 +1,14 @@
 package me.hao0.jvm.gc;
 
-
 import java.util.HashSet;
 import java.util.Set;
 
 /**
  * 分别使用SerialGC和ParallelGC性能对比
- *
+ * -Xms1g -Xmx1g -XX:+UseSerialGC -XX:+PrintGCDetails -XX:+PrintGCDateStamps
+ * -Xms1g -Xmx1g -XX:+UseParallelGC -XX:+PrintGCDetails -XX:+PrintGCDateStamps
  */
-public class SerialVSParallel {
+public class SerialGCVSParallelGCTest {
 
     // 1M
     private static int M_1 = 1024 * 1024;
