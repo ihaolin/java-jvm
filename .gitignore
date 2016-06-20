@@ -4,3 +4,6 @@ target/
 .DS_Store
 Avs1*.java
 *.txt
+.hprof
+*.index
+*.threads
